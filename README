@@ -1,0 +1,5 @@
+A very simple Google buzz Kohana module.
+
+Google are yet to release an 'official' API, however there is an atom feed you can get for updates
+
+for a working sample please visit http://playground.marmaladeontoast.co.uk/kohana/buzz/sydlawrence
