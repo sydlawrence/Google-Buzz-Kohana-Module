@@ -28,7 +28,7 @@ class buzz_core {
 		$updates = array();
 
 		foreach ($data as $d) {
-			$posts[] = array(
+			$updates[] = array(
 				"date" => $d['published'],
 				"content" => strip_tags($d['content']),
 				"author" => $d['author'],
