@@ -8,7 +8,7 @@
  * @package    googlebuzz
  * @author     Syd Lawrence
  * @copyright  (c) 2010 Syd Lawrence
- * @license    http://kohanaphp.com/license.html
+ * @license    Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
  */
 class buzz_core {
 
