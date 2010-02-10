@@ -28,8 +28,9 @@ class buzz_core {
 		$updates = array();
 
 		foreach ($data as $d) {
+			
 			$updates[] = array(
-				"date" => $d['published'],
+				"date" => $d['updated'],
 				"content" => strip_tags($d['content']),
 				"author" => $d['author'],
 				"href" => $d['link'][0]['href'],
@@ -61,7 +62,7 @@ class buzz_core {
 		// format the data in a more organised manner (personal opinion)
 		foreach ($data as $d) {
 			$replies[] = array(
-				"date" => $d['published'],
+				"date" => $d['updated'],
 				"content" => $d['content'],
 				"author" => $d['author']
 			);
