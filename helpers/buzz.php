@@ -62,7 +62,7 @@ class buzz_core {
 		// format the data in a more organised manner (personal opinion)
 		foreach ($data as $d) {
 			$replies[] = array(
-				"date" => $d['updated'],
+				"date" => $d['published'],
 				"content" => $d['content'],
 				"author" => $d['author']
 			);
